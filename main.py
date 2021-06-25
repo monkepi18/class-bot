@@ -31,4 +31,4 @@ async def on_message(message):
     await message.channel.send(baat + " hai beta")
 
 #keep_alive()
-client.run(os.getenv('TOKEN'))
+client.run(os.environ['TOKEN'])
